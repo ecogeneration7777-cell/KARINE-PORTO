@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Karine Porto | Consultoria de Imagem</title>
+    <meta name="description" content="Consultoria de imagem com Karine Porto: análise de imagem, estilo pessoal e coloração pessoal para alinhar a sua imagem à sua essência. Atendimento presencial em Campinas (SP) ou online.">
+    <meta name="theme-color" content="#F9F5F3">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Karine Porto | Consultoria de Imagem">
+    <meta property="og:description" content="Sua imagem, alinhada à sua essência. Consultoria de imagem, estilo e coloração pessoal.">
+    <meta property="og:image" content="assets/images/karine-porto-sobre.webp">
+
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+
+    <!-- Tipografia: a identidade da cliente usa Manison (título) + DM Sans (texto).
+         Manison não está no Google Fonts; Playfair Display é a substituta mais próxima.
+         Se a cliente tiver a licença da Manison, troque a família em --font-display. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+    <link rel="preload" as="image" href="assets/images/karine-porto-hero.webp" type="image/webp">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <!-- ========== HEADER ========== -->
+    <header class="site-header">
+        <div class="container site-header__inner">
+
+            <!-- LOGO: wordmark em texto até a cliente enviar o arquivo oficial.
+                 Para usar o logo oficial, substitua o conteúdo do link por:
+                 <img src="assets/logo/karine-porto-logo.svg" alt="Karine Porto — Consultoria de Imagem" width="160" height="48"> -->
+            <a class="brand" href="#inicio" aria-label="Karine Porto — Consultoria de Imagem, voltar ao início">
+                <span class="brand__name">Karine Porto</span>
+                <span class="brand__tagline">Consultoria de imagem</span>
+            </a>
+
+            <!-- Navegação desktop (visível a partir de 1024px) -->
+            <nav class="site-nav site-nav--desktop" aria-label="Navegação principal">
+                <ul class="site-nav__list">
+                    <li><a class="site-nav__link" href="#inicio">Início</a></li>
+                    <li><a class="site-nav__link" href="#consultoria">Consultoria</a></li>
+                    <li><a class="site-nav__link" href="#servicos">Serviços</a></li>
+                    <li><a class="site-nav__link" href="#sobre">Sobre</a></li>
+                    <li><a class="site-nav__link" href="#contato">Contato</a></li>
+                </ul>
+                <a class="btn btn--primary site-nav__cta" href="https://wa.me/5511997757742?text=Ol%C3%A1%2C%20Karine!%20Gostaria%20de%20agendar%20uma%20consultoria%20de%20imagem." target="_blank" rel="noopener">
+                    Agende sua consultoria
+                </a>
+            </nav>
+
+            <!-- Navegação mobile/tablet: menu hamburger 100% HTML (<details>/<summary>), sem JavaScript.
+                 Some a partir de 1024px; por isso só uma das duas navegações existe para leitores de tela. -->
+            <details class="mobile-menu">
+                <summary class="nav-toggle">
+                    <span class="nav-toggle__bars" aria-hidden="true"></span>
+                    <span class="visually-hidden">Menu</span>
+                </summary>
+                <nav class="site-nav site-nav--mobile" aria-label="Navegação principal">
+                    <ul class="site-nav__list">
+                        <li><a class="site-nav__link" href="#inicio">Início</a></li>
+                        <li><a class="site-nav__link" href="#consultoria">Consultoria</a></li>
+                        <li><a class="site-nav__link" href="#servicos">Serviços</a></li>
+                        <li><a class="site-nav__link" href="#sobre">Sobre</a></li>
+                        <li><a class="site-nav__link" href="#contato">Contato</a></li>
+                    </ul>
+                    <a class="btn btn--primary site-nav__cta" href="https://wa.me/5511997757742?text=Ol%C3%A1%2C%20Karine!%20Gostaria%20de%20agendar%20uma%20consultoria%20de%20imagem." target="_blank" rel="noopener">
+                        Agende sua consultoria
+                    </a>
+                </nav>
+            </details>
+        </div>
+    </header>
+
+    <main id="conteudo">
+
+        <!-- ========== HERO ========== -->
+        <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+            <div class="container hero__grid">
+
+                <figure class="hero__media">
+                    <svg class="hero__shape" viewBox="0 0 400 480" aria-hidden="true" focusable="false">
+                        <path d="M40 470C10 380 0 280 40 190 85 90 170 20 260 30c90 10 150 90 135 190-12 85-70 120-80 190-6 40 10 60 25 60z"/>
+                        <path class="hero__shape-line" d="M18 300c40-90 120-140 210-120 70 15 120 80 160 70"/>
+                    </svg>
+                    <img class="hero__img"
+                         src="assets/images/karine-porto-hero.webp"
+                         alt="Karine Porto sorrindo, de cabelos longos e blusa preta, olhando para o lado"
+                         width="900" height="1098"
+                         fetchpriority="high">
+                </figure>
+
+                <div class="hero__content">
+                    <h1 class="hero__title" id="hero-titulo">Sua imagem, alinhada à sua essência.</h1>
+                    <p class="hero__lead">
+                        Transformo sua personalidade em estilo pessoal, para que a sua imagem comunique quem você já é.
+                    </p>
+                    <div class="hero__actions">
+                        <a class="btn btn--primary" href="#consultoria">Conheça a consultoria</a>
+                        <a class="btn btn--ghost"
+                           href="https://wa.me/5511997757742?text=Ol%C3%A1%2C%20Karine!%20Gostaria%20de%20agendar%20uma%20consultoria%20de%20imagem."
+                           target="_blank" rel="noopener">
+                            Agende pelo WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ========== IDENTIFICAÇÃO / PROBLEMA ========== -->
+        <section class="section identify" id="identificacao" aria-labelledby="identify-titulo">
+            <div class="container identify__grid">
+
+                <figure class="identify__media">
+                    <img src="assets/images/cartelas-atendimento.webp"
+                         alt="Mesa de atendimento com cartelas de coloração pessoal da marca Karine Porto, mechas de cabelo de referência e um círculo cromático"
+                         width="900" height="1119" loading="lazy">
+                </figure>
+
+                <div class="identify__content">
+                    <h2 class="visually-hidden" id="identify-titulo">Sua imagem comunica quem você é?</h2>
+                    <p class="identify__intro">Alguém já te falou assim?</p>
+                    <blockquote class="identify__quote">
+                        <p>“Nossa, quando eu te conheci, achei que você era diferente!”</p>
+                    </blockquote>
+                    <p class="identify__text">
+                        Quando a primeira impressão conta uma história diferente da sua, existe um ruído na comunicação pessoal.
+                        Não há nada de errado com você — a sua imagem só ainda não está alinhada com quem você é.
+                    </p>
+                    <p class="identify__question">Será que a sua imagem está comunicando quem você realmente é?</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ========== O QUE É CONSULTORIA DE IMAGEM ========== -->
+        <section class="section section--surface concept" id="consultoria" aria-labelledby="concept-titulo">
+            <div class="container">
+                <header class="section-head section-head--center">
+                    <h2 class="section-title" id="concept-titulo">O que é consultoria de imagem?</h2>
+                    <p class="section-lead">
+                        Vai muito além da moda: é um processo de autoconhecimento. A moda entra como ferramenta de comunicação
+                        para entender quem você é e o que deseja transmitir.
+                    </p>
+                </header>
+
+                <div class="concept__diagram">
+                    <article class="concept__card">
+                        <h3 class="concept__term">Identidade</h3>
+                        <p>É quem somos: nossos valores, nossa essência.</p>
+                    </article>
+
+                    <div class="concept__bridge" aria-hidden="true">
+                        <span class="concept__line"></span>
+                    </div>
+
+                    <article class="concept__card">
+                        <h3 class="concept__term">Imagem</h3>
+                        <p>É como somos percebidas pelas outras pessoas.</p>
+                    </article>
+                </div>
+
+                <p class="concept__result">
+                    <span class="concept__result-label">Alinhamento</span>
+                    A consultoria alinha as duas.
+                </p>
+
+                <figure class="concept__promise">
+                    <blockquote>
+                        <p>Meu foco é potencializar sua beleza e equilibrar proporções. Não vou jogar suas roupas fora, muito menos impor um estilo pra você.</p>
+                    </blockquote>
+                    <figcaption>Karine Porto</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- ========== PROPOSTA DE VALOR ========== -->
+        <section class="section values" id="proposta" aria-labelledby="values-titulo">
+            <div class="container">
+                <header class="section-head">
+                    <h2 class="section-title" id="values-titulo">O que a consultoria trabalha em você</h2>
+                    <p class="section-lead">Moda aqui não é tendência imposta. É linguagem a favor da sua individualidade.</p>
+                </header>
+
+                <ul class="values__list" role="list">
+                    <li class="value">
+                        <svg class="value__icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="16" cy="16" r="11"/><circle cx="16" cy="16" r="4"/></svg>
+                        <h3 class="value__title">Autoconhecimento</h3>
+                        <p class="value__text">Entender quem você é e o que deseja transmitir antes de pensar em roupa.</p>
+                    </li>
+                    <li class="value">
+                        <svg class="value__icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M16 5c5 6 8 10 8 14a8 8 0 0 1-16 0c0-4 3-8 8-14z"/></svg>
+                        <h3 class="value__title">Autenticidade</h3>
+                        <p class="value__text">Um estilo que parte da sua personalidade, e não de um modelo pronto.</p>
+                    </li>
+                    <li class="value">
+                        <svg class="value__icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M6 26V14l10-8 10 8v12"/><path d="M12 26v-7h8v7"/></svg>
+                        <h3 class="value__title">Confiança</h3>
+                        <p class="value__text">Mais credibilidade e autoconfiança quando a imagem passa a fazer sentido para você.</p>
+                    </li>
+                    <li class="value">
+                        <svg class="value__icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M5 8h22v13H14l-6 5v-5H5z"/></svg>
+                        <h3 class="value__title">Comunicação</h3>
+                        <p class="value__text">Menos ruído: cores, formas e estilo usados com intenção, na vida pessoal e profissional.</p>
+                    </li>
+                    <li class="value">
+                        <svg class="value__icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M16 4l3.5 7.5L27 13l-5.5 5.5L23 26l-7-4-7 4 1.5-7.5L5 13l7.5-1.5z"/></svg>
+                        <h3 class="value__title">Valorização pessoal</h3>
+                        <p class="value__text">Potencializar sua beleza e equilibrar proporções, realçando o que já é seu.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ========== CONSULTORIA EXPRESS ========== -->
+        <section class="section section--surface express" id="express" aria-labelledby="express-titulo">
+            <div class="container express__grid">
+
+                <figure class="express__media">
+                    <img src="assets/images/kit-coloracao.webp"
+                         alt="O que a cliente leva na consultoria: cartela de cores principal, card da cartela irmã e um par de brincos na sua cor"
+                         width="900" height="1596" loading="lazy">
+                </figure>
+
+                <div class="express__content">
+                    <p class="tag">Serviço em destaque</p>
+                    <h2 class="section-title" id="express-titulo">Consultoria Express</h2>
+                    <p class="express__lead">
+                        O essencial da consultoria em um único encontro: entender seus objetivos, descobrir seu estilo e as cores que valorizam você.
+                    </p>
+
+                    <h3 class="express__subtitle">O que faremos</h3>
+                    <ol class="steps" role="list">
+                        <li class="steps__item"><span class="steps__title">Análise de imagem</span></li>
+                        <li class="steps__item"><span class="steps__title">Definição de objetivos</span></li>
+                        <li class="steps__item"><span class="steps__title">Análise de estilo pessoal</span></li>
+                        <li class="steps__item"><span class="steps__title">Coloração pessoal</span></li>
+                        <li class="steps__item"><span class="steps__title">Fechamento</span></li>
+                    </ol>
+
+                    <dl class="details">
+                        <div class="details__item">
+                            <dt>Duração</dt>
+                            <dd>Reserve pelo menos 3 horas do seu dia.</dd>
+                        </div>
+                        <div class="details__item">
+                            <dt>Você recebe</dt>
+                            <dd>Cartela de cores física e dossiê de imagem personalizado em PDF, com looks do seu estilo, maquiagem e cores.</dd>
+                        </div>
+                        <!-- Valor exibido conforme o material da cliente. Se ela preferir não mostrar preço, remova este bloco. -->
+                        <div class="details__item">
+                            <dt>Investimento</dt>
+                            <dd class="details__price">R$ 580</dd>
+                        </div>
+                    </dl>
+
+                    <a class="btn btn--primary"
+                       href="https://wa.me/5511997757742?text=Ol%C3%A1%2C%20Karine!%20Quero%20conhecer%20a%20Consultoria%20Express."
+                       target="_blank" rel="noopener">
+                        Quero a Consultoria Express
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ========== MEUS SERVIÇOS ========== -->
+        <section class="section services" id="servicos" aria-labelledby="services-titulo">
+            <div class="container">
+                <header class="section-head">
+                    <h2 class="section-title" id="services-titulo">Meus serviços</h2>
+                    <p class="section-lead">
+                        Atendimentos presenciais ou online, de um único encontro de cerca de 3 horas a processos completos de até 3 meses.
+                    </p>
+                </header>
+
+                <ul class="services__grid" role="list">
+                    <li>
+                        <article class="service-card">
+                            <img class="service-card__img" src="assets/images/guarda-roupa.webp"
+                                 alt="" width="420" height="345" loading="lazy">
+                            <div class="service-card__body">
+                                <h3 class="service-card__title">Consultoria Completa</h3>
+                                <p class="service-card__text">
+                                    Análise de imagem e objetivos, estilo pessoal, coloração pessoal, montagem de looks, shopping e acompanhamento de 3 meses.
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="service-card">
+                            <img class="service-card__img" src="assets/images/roupas-cartela.webp"
+                                 alt="" width="373" height="526" loading="lazy">
+                            <div class="service-card__body">
+                                <h3 class="service-card__title">Consultoria Express</h3>
+                                <p class="service-card__text">
+                                    Análise de imagem e objetivos, estilo pessoal e coloração pessoal em um encontro de cerca de 3 horas.
+                                </p>
+                                <a class="service-card__link" href="#express">Ver detalhes<span class="visually-hidden"> da Consultoria Express</span></a>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="service-card">
+                            <img class="service-card__img" src="assets/images/personal-shopping.webp"
+                                 alt="" width="242" height="211" loading="lazy">
+                            <div class="service-card__body">
+                                <h3 class="service-card__title">Personal Shopping</h3>
+                                <p class="service-card__text">
+                                    3 horas de compras previamente avaliadas e estudadas, de acordo com seu orçamento e preferência.
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="service-card">
+                            <img class="service-card__img service-card__img--top" src="assets/images/look-evento.webp"
+                                 alt="" width="374" height="526" loading="lazy">
+                            <div class="service-card__body">
+                                <h3 class="service-card__title">Personal Styling</h3>
+                                <p class="service-card__text">
+                                    Apoio para um evento pontual: casamento, formatura, entrevista, palestra, eventos corporativos e outros.
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+
+                <!-- Palestras & Workshop: mais conteúdo, por isso um bloco próprio -->
+                <article class="talks">
+                    <figure class="talks__media">
+                        <img src="assets/images/karine-porto-palestra.webp"
+                             alt="Karine Porto de vestido branco, sentada em uma poltrona com microfone, durante uma gravação"
+                             width="900" height="1350" loading="lazy">
+                    </figure>
+                    <div class="talks__content">
+                        <h3 class="talks__title">Palestras &amp; Workshop</h3>
+                        <p class="talks__lead">
+                            Para mulheres que desejam aprimorar sua imagem pessoal e profissional, renovando a autoconfiança com técnicas do coaching de imagem.
+                            Em empresas, igrejas e comunidades.
+                        </p>
+                        <h4 class="talks__subtitle">Temas</h4>
+                        <ul class="talks__topics" role="list">
+                            <li>O poder da imagem pessoal e posicionamento de imagem</li>
+                            <li>Construindo autoestima por meio do autoconhecimento</li>
+                            <li>A influência das cores na nossa vida</li>
+                            <li>Estilo pessoal e posicionamento de imagem</li>
+                            <li>Dress code corporativo</li>
+                            <li>Compras inteligentes e montagem de looks</li>
+                        </ul>
+                        <a class="btn btn--ghost"
+                           href="https://wa.me/5511997757742?text=Ol%C3%A1%2C%20Karine!%20Gostaria%20de%20saber%20sobre%20palestras%20e%20workshops."
+                           target="_blank" rel="noopener">
+                            Convidar para uma palestra
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ========== SOBRE KARINE ========== -->
+        <section class="section section--surface about" id="sobre" aria-labelledby="about-titulo">
+            <div class="container about__grid">
+
+                <figure class="about__media">
+                    <img class="about__img"
+                         src="assets/images/karine-porto-sobre.webp"
+                         alt="Karine Porto sorrindo, de camisa branca e saia vermelha, sentada em uma rede diante de um mural de flores"
+                         width="900" height="996" loading="lazy">
+                </figure>
+
+                <div class="about__content">
+                    <h2 class="section-title" id="about-titulo">Olá! <em>Sou a Karine.</em></h2>
+                    <p>
+                        Sou formada em Consultoria e Coaching de Imagem e Estilo pela École Supérieure de Relooking desde 2019.
+                        Comecei pouco antes da pandemia, buscando uma renda extra: sempre fui apaixonada por moda e já atuava como maquiadora aos fins de semana.
+                        O que era hobby logo ganhou espaço no meu coração e na minha rotina.
+                    </p>
+                    <p>
+                        Desde então, ajudo mulheres a descobrirem e expressarem sua melhor versão por meio da imagem.
+                        Meu interesse por moda, beleza e comportamento nasceu do interesse por pessoas — gosto de ajudá-las a se sentirem bem, confiantes e bonitas.
+                        Fiz meu primeiro curso de maquiagem profissional em 2017 e hoje sou especialista em beleza negra, na maquiagem e na consultoria.
+                    </p>
+                    <p>
+                        Também sou formada em Letras pela FMU e pós-graduada em Comunicação Estratégica.
+                    </p>
+                    <p class="about__personal">
+                        Curiosa, aventureira, extrovertida e animada. Casada com o Franklin, mãe da Joana e uma entusiasta pela vida!
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ========== CTA FINAL ========== -->
+        <section class="section cta" id="agendar" aria-labelledby="cta-titulo">
+            <div class="container cta__inner">
+                <h2 class="cta__title" id="cta-titulo">Sua imagem pode comunicar a sua história.</h2>
+                <p class="cta__text">Vamos descobrir juntas sua identidade visual e realçar a beleza que há em você?</p>
+                <a class="btn btn--primary btn--large"
+                   href="https://wa.me/5511997757742?text=Ol%C3%A1%2C%20Karine!%20Gostaria%20de%20agendar%20uma%20consultoria%20de%20imagem."
+                   target="_blank" rel="noopener">
+                    Agende sua consultoria
+                </a>
+            </div>
+        </section>
+
+        <!-- ========== CONTATO ========== -->
+        <section class="section contact" id="contato" aria-labelledby="contact-titulo">
+            <div class="container">
+                <div class="contact__panel">
+                    <figure class="contact__media">
+                        <img src="assets/images/karine-porto-contato.webp"
+                             alt="Karine Porto sorrindo, olhando para o lado"
+                             width="581" height="700" loading="lazy">
+                    </figure>
+
+                    <div class="contact__content">
+                        <h2 class="section-title" id="contact-titulo">Contato</h2>
+                        <ul class="contact__list" role="list">
+                            <li>
+                                <a class="contact__item" href="https://wa.me/5511997757742" target="_blank" rel="noopener">
+                                    <svg class="contact__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19z"/><path d="M9 9.5c.5 2 2.5 4 4.5 4.5l1-1.2 2 .8c-.3 1.4-1.4 2-2.5 1.8C11 15 9 13 8.6 10c-.2-1.1.4-2.2 1.8-2.5l.8 2z"/></svg>
+                                    <span>
+                                        <span class="contact__label">WhatsApp</span>
+                                        <span class="contact__value">(11) 99775-7742</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="contact__item" href="https://www.instagram.com/a.karineporto/" target="_blank" rel="noopener">
+                                    <svg class="contact__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6"/></svg>
+                                    <span>
+                                        <span class="contact__label">Instagram</span>
+                                        <span class="contact__value">@a.karineporto</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <!-- E-mail exatamente como consta no material da cliente: confirmar a grafia. -->
+                                <a class="contact__item" href="mailto:karineoporto@gmail.com">
+                                    <svg class="contact__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5.5" width="18" height="13" rx="1.5"/><path d="M3.5 6.5L12 13l8.5-6.5"/></svg>
+                                    <span>
+                                        <span class="contact__label">E-mail</span>
+                                        <span class="contact__value">karineoporto@gmail.com</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <p class="contact__item contact__item--static">
+                                    <svg class="contact__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>
+                                    <span>
+                                        <span class="contact__label">Local</span>
+                                        <span class="contact__value">Campinas | São Paulo</span>
+                                        <span class="contact__value">Atendimento presencial ou online</span>
+                                    </span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <a class="brand brand--footer" href="#inicio" aria-label="Karine Porto — voltar ao início">
+                <span class="brand__name">Karine Porto</span>
+                <span class="brand__tagline">Consultoria de imagem</span>
+            </a>
+
+            <nav aria-label="Links do rodapé">
+                <ul class="site-footer__links" role="list">
+                    <li><a href="#consultoria">Consultoria</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="https://www.instagram.com/a.karineporto/" target="_blank" rel="noopener">Instagram</a></li>
+                </ul>
+            </nav>
+
+            <p class="site-footer__copy">&copy; 2026 Karine Porto. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

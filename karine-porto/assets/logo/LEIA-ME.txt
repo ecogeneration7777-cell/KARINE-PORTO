@@ -1,0 +1,2 @@
+Coloque aqui o arquivo do logo oficial da Karine Porto (de preferência SVG, ou PNG com fundo transparente),
+com o nome karine-porto-logo.svg. Depois, siga o comentário no <header> do index.html para trocar o wordmark em texto pela imagem.
